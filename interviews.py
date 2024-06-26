@@ -8,6 +8,9 @@ import heapq
 from collections import deque
 import math
 a, b = 1, 'abc'
+x = y = z = 0   # separate reference assignments
+y = 2
+print(f'{x} {y} {z}')
 
 # loops
 # range takes third paramter for increment (set to -1 for reverse loop)
