@@ -42,7 +42,8 @@ float("-inf")
 arr = [1, 2, 3]
 # use as a stack:
 arr.append(1)  # to back
-arr.pop()  # from back
+arr.pop()  # from back, O(1)
+arr.pop(0)  # from arbitrary index, O(n)
 print(arr)
 
 # using as a queue will result in O(n) popping using pop(0)
